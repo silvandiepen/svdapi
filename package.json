@@ -1,0 +1,32 @@
+{
+	"name": "svdapi",
+	"version": "1.0.0",
+	"description": "API for Sil van Diepen",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"dev": "tsc --w",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/silvandiepen/svdapi.git"
+	},
+	"author": "Sil van Diepen",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/silvandiepen/svdapi/issues"
+	},
+	"homepage": "https://github.com/silvandiepen/svdapi#readme",
+	"devDependencies": {
+		"@types/node": "^13.13.2",
+		"jest": "^25.4.0",
+		"ts-jest": "^25.4.0",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"@types/uuid": "^7.0.2",
+		"aws-sdk": "^2.660.0",
+		"uuid": "^7.0.3"
+	}
+}
